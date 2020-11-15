@@ -80,7 +80,7 @@ app.post('/multiply',(req,res)=>{
     }
     res.send({
         status: "success",
-        message: "The product of two numbers",
+        message: "The product of given numbers",
         result: num1*num2
     });
 })
@@ -107,7 +107,7 @@ app.post('/divide',(req,res)=>{
     }
     res.send({
         status: "success",
-        message: "The division of two numbers",
+        message: "The division of given numbers",
         result: num1/num2
     });
 })
